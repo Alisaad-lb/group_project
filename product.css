@@ -2,23 +2,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
-body {
-    padding: 20px;
+.nav {
+    overflow: hidden;
+    background-color: rgb(247, 214, 244);
+}
+a {
+    text-decoration: none;
+    color: rgb(213, 9, 253);
+}
+.nav li {
+    color: white;
+    float: left;
+    padding: 15px 15px;
+    font-size: 15px;
+}
+.nav a:hover {
+    background-color: rgb(168, 230, 238);
+    color: rgb(17, 17, 17);
+}
+/* .nav a.split {
+    float: left;
+    background-color: rgb(168, 230, 238);
+    color: rgb(213, 9, 253);
+} */
+.page1 {
+    text-align: center;
     margin: 20px;
 }
-ul {
-    display: flex;
-    position: relative;
-    float: right;
-    align-items: center;
-    list-style-type: none;
+h1 {
+    padding: 10px;
+    margin: 15px;
+    color: rgb(80, 79, 79);
+}
 
-}
-img {
-    background-position: center;
-}
 p {
     text-align: justify;
-
+    padding: 10px;
+    margin: 15px;
 }
